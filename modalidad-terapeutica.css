@@ -1,0 +1,112 @@
+/* Sección "Modalidad terapéutica" */
+
+.modalidadTerapeutica {
+    width: 100%;
+    background-color: rgb(163, 163, 231);
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    height: auto;
+}
+
+.modalidadTerapeutica-container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.modalidadTerapeutica-container-titulo1 {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+}
+
+.modalidadTerapeutica-container-titulo1 h2::after {
+    content: '';
+    width: 8%;
+    height: 1.5px;
+    background: #060506;
+    display: block;
+    margin:auto;
+}
+
+.modalidadTerapeutica-container-titulo2 {
+    margin-bottom: 10px;
+}
+
+.modalidadTerapeutica-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: poppinslight;
+}
+
+.modalidadTerapeutica-container-p {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.modalidadTerapeutica-container-p2 {
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.modalidadTerapeutica-ambulatoria-container img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modalidadTerapeutica-container h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: poppinslight;
+}
+
+.modalidadTerapeutica-container ul {
+    margin-bottom: 10px;
+    font-family: poppinslight;
+}
+
+
+
+.modalidadTerapeutica-cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.modalidadTerapeutica-ambulatoria, .modalidadTerapeutica-residencial {
+
+    /* Agregar sombras para crear el efecto de "cards" */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+}
+
+.modalidadTerapeutica-container img {
+    width: 300px;
+}
+
+
+.modalidadTerapeutica-ambulatoria-container, .modalidadTerapeutica-residencial-container  {
+    padding: 2px 16px;
+}
+
+@media (max-width: 829px) {
+    .modalidadTerapeutica-container-titulo1 {
+        margin-top: 100px;
+    }
+
+    .modalidadTerapeutica-container-p2 {
+        margin-bottom: 100px;
+    }
+
+    .index-principal-nuestroEnfoque-container {
+        margin-bottom: 40%;
+    }
+}

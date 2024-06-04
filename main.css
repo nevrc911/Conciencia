@@ -1,0 +1,227 @@
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-image: url(../Conciencia/desert-8592629_1280.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-intro {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main-intro h1 {
+        font-size: 48px !important;
+    }
+}
+
+@font-face {
+    src: url(../Conciencia/fuentes-poppins/Poppins-Light.ttf);
+    font-family: poppinslight;
+}
+
+.main-intro h1 {
+    font-size: 62px;
+    line-height: 106px;
+    font-family: poppinslight;
+}
+
+/* Sección "principal" */
+
+/* Quiénes somos */
+
+.index-principal {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.index-principal-h3-p h3 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: poppinslight;
+    text-align: center;
+}
+
+.index-principal-h3-p p {
+    color: 777;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: poppinslight;
+    line-height: 22px;
+    padding: 40px;
+    margin-bottom:20%;
+}
+
+.index-principal-h3-p h3::after {
+    content: '';
+    width: 8%;
+    height: 1.5px;
+    background: #060506;
+    display: block;
+    margin:auto
+}
+
+/* Nuestro enfoque */
+
+.index-principal-nuestroEnfoque {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.index-principal-nuestroEnfoque-container {
+    width: 800px;
+}
+
+.index-principal-nuestroEnfoque img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.index-principal-nuestroEnfoque-h2-icono {
+    display: flex;
+    flex-direction: row;
+}
+
+.index-principal-nuestroEnfoque h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: poppinslight;
+}
+
+.index-principal-nuestroEnfoque-h2-icono img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.index-principal-nuestroEnfoque-p {
+    background-color: rgb(214, 182, 208);
+    margin: auto;
+    margin-bottom:20%;
+}
+
+.index-principal-nuestroEnfoque-p p {
+    color: 777;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: poppinslight;
+    line-height: 22px;
+    padding: 40px;
+}
+
+/* Rol de nuestro equipo */
+
+.index-principal-nuestroEquipo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.index-principal-nuestroEquipo-container {
+    width: 800px;
+}
+
+.index-principal-nuestroEquipo img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.index-principal-nuestroEquipo-p-img {
+    background-color: rgb(214, 182, 208);
+    width: 80%;
+    height: 40%;
+    margin: auto;
+}
+
+.index-principal-nuestroEquipo-p-img p {
+    color: 777;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: poppinslight;
+    line-height: 22px;
+    padding: 40px;
+}
+
+.index-principal-nuestroEquipo-h2-icono img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.index-principal-nuestroEquipo-h2-icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.index-principal-nuestroEquipo h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: poppinslight;
+}
+
+.index-principal-nuestroEquipo-p {
+    background-color: rgb(214, 182, 208);
+    margin: auto;
+}
+
+.index-principal-nuestroEquipo-p p {
+    color: 777;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: poppinslight;
+    line-height: 22px;
+    padding: 40px;
+}
+
+
+
+.index-principal-nuestroEquipo-p ul {
+    color: 777;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: poppinslight;
+    line-height: 22px;
+    padding: 40px;
+}
+
+
+.index-principal-nuestroEquipo-p ul li{
+    margin-bottom: 5%;
+}
+
+
+.index-principal-nuestroEquipo-imgEquipo {
+    margin: auto;
+}
+
+.index-principal-nuestroEquipo-imgEquipo img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-top: 12%;
+}
+
+.index-principal-nuestroEquipo-tituloEIcono {
+    margin-bottom: 30%;
+}
